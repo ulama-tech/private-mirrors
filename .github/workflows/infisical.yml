@@ -18,9 +18,9 @@ jobs:
           # The authentication method to use
           # method: # optional, default is universal
           # Machine Identity client ID
-          client-id: ${{ secrets.client_id }}
+          client_id: ${{ secrets.client_id }}
           # Machine Identity secret key
-          client-secret: ${{ secrets.client_secret }}
+          client_secret: ${{ secrets.client_secret }}
           # Machine Identity ID
           # identity-id: # optional
           # Custom aud claim for the signed Github ID token
