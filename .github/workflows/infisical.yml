@@ -26,9 +26,9 @@ jobs:
           # Custom aud claim for the signed Github ID token
           # oidc-audience: # optional
           # Source project slug
-          # project-slug: 
+          project-slug: "private-mirrors"
           # Source environment slug
-          # env-slug: 
+          env-slug: "prod" 
           # Infisical URL (defaults to https://app.infisical.com )
           # domain: # optional, default is https://app.infisical.com
           # If set to `env`, it will set the fetched secrets as environment variables for subsequent steps of a workflow. If set to `file`, it will export the secrets in a .env file in the defined file-output-path
